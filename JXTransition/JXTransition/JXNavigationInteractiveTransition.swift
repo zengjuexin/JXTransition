@@ -40,7 +40,6 @@ extension JXNavigationInteractiveTransition {
         }
 
         progress = min(1, max(0, progress))
-        bjLog(message: progress)
 
         switch sender.state {
         case .began:

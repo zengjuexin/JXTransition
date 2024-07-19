@@ -22,6 +22,7 @@
 		050890AC2C4A61C5007FCF48 /* UIGestureRecognizer+JXTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050890A22C4A61C5007FCF48 /* UIGestureRecognizer+JXTransition.swift */; };
 		050890AD2C4A61C5007FCF48 /* UINavigationController+JXTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050890A32C4A61C5007FCF48 /* UINavigationController+JXTransition.swift */; };
 		050890AE2C4A61C5007FCF48 /* UIViewController+JXTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050890A42C4A61C5007FCF48 /* UIViewController+JXTransition.swift */; };
+		050890B02C4A6332007FCF48 /* JXNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050890AF2C4A6332007FCF48 /* JXNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		050890A22C4A61C5007FCF48 /* UIGestureRecognizer+JXTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer+JXTransition.swift"; sourceTree = "<group>"; };
 		050890A32C4A61C5007FCF48 /* UINavigationController+JXTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+JXTransition.swift"; sourceTree = "<group>"; };
 		050890A42C4A61C5007FCF48 /* UIViewController+JXTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JXTransition.swift"; sourceTree = "<group>"; };
+		050890AF2C4A6332007FCF48 /* JXNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				050890A52C4A61C5007FCF48 /* JXTransition */,
 				050890882C4A61B4007FCF48 /* AppDelegate.swift */,
 				0508908A2C4A61B4007FCF48 /* SceneDelegate.swift */,
+				050890AF2C4A6332007FCF48 /* JXNavigationViewController.swift */,
 				0508908C2C4A61B4007FCF48 /* ViewController.swift */,
 				0508908E2C4A61B4007FCF48 /* Main.storyboard */,
 				050890912C4A61B6007FCF48 /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050890B02C4A6332007FCF48 /* JXNavigationViewController.swift in Sources */,
 				050890A72C4A61C5007FCF48 /* JXNavigationInteractiveTransition.swift in Sources */,
 				050890A82C4A61C5007FCF48 /* JXPopAnimatedTransition.swift in Sources */,
 				050890A62C4A61C5007FCF48 /* JXBaseAnimatedTransition.swift in Sources */,

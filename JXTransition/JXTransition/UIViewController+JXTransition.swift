@@ -39,23 +39,6 @@ import UIKit
     @objc optional func viewControllerPopScrollEnded(finished: Bool)
 }
 
-extension UIViewController {
-    
-//    // MARK: - 重新系统方法
-//    private static let onceToken = UUID().uuidString
-//    @objc public static func jxTransitionAwake() {
-//        DispatchQueue.once(token: onceToken) {
-//            let oriSels = ["viewDidAppear:",]
-//            for oriSel in oriSels {
-//                jx_swizzled_instanceMethod("jxGesture", oldClass: self, oldSelector: oriSel, newClass: self)
-//            }
-//        }
-//    }
-//
-//    @objc func jxGesture_viewDidAppear(_ animated: Bool) {
-//        jxGesture_viewDidAppear(animated)
-//    }
-}
 
 extension UIViewController {
     enum GestureTransitionType: Int {
