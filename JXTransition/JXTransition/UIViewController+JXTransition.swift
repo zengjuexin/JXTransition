@@ -27,6 +27,8 @@ import UIKit
 // 右滑pop代理
 @objc public protocol JXViewControllerPopDelegate: NSObjectProtocol {
     
+    @objc optional func viewControllerPopShouldScrollBegan() -> Bool
+    
     /// pop手势滑动开始
     @objc optional func viewControllerPopScrollBegan()
     

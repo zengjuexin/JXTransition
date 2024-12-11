@@ -163,6 +163,8 @@ extension JXNavigationInteractiveTransition: UIGestureRecognizerDelegate {
                 if visibleVC.jx_popGestureType == .edge { return false }
                 if transition.x <= 0 { return false } //左滑直接返回
                 if self.navigationController.viewControllers.count <= 1 { return false }
+                if visibleVC.jx_popDelegate?.viewControllerPopShouldScrollBegan?() == false { return false }
+                visibleVC.jx_popDelegate?.viewControllerPopScrollBegan?()
 //                ydLog(message: "滑动========这里是pop滑动")
                 return true
             } else if jxTag == "push" {
